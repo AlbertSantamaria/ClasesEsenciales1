@@ -54,3 +54,17 @@
 25/08/2014 01:00:50 carta_ajuste27.jpg 5799451 bytes
 25/08/2014 01:01:13 numeros.txt 118 bytes
 25/08/2014 01:01:13 carta_ajuste.jpg 57451 bytes
+27/08/2014 17:13:01 numeros.txt 118 bytes
+27/08/2014 17:13:01 carta_ajuste.jpg 57451 bytes
+29/08/2014 12:28:53 numeros.txt 118 bytes
+29/08/2014 12:28:53 carta_ajuste.jpg 57451 bytes
+01/09/2014 17:12:12 numeros.txt 118 bytes
+01/09/2014 17:12:12 carta_ajuste.jpg 57451 bytes
+07/09/2014 16:24:56 numeros.txt 118 bytes
+07/09/2014 16:24:56 carta_ajuste.jpg 57451 bytes
+07/09/2014 16:40:23 numeros.txt 118 bytes
+07/09/2014 16:40:23 carta_ajuste.jpg 57451 bytes
+07/09/2014 16:42:45 numeros.txt 118 bytes
+07/09/2014 16:42:45 carta_ajuste.jpg 57451 bytes
+07/09/2014 16:44:11 numeros.txt 118 bytes
+07/09/2014 16:44:11 carta_ajuste.jpg 57451 bytes
