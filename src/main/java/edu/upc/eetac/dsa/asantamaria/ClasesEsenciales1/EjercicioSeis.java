@@ -47,9 +47,9 @@ public class EjercicioSeis {
 			System.out.println("");
 			
 			System.out.println("El archivo de mayor tamaño del registro es:\n"
-					+ "-->"+palabrasSeparadas2[2] + " con un tamaño de "
+					+ "--> "+palabrasSeparadas2[2] + " con un tamaño de "
 					+ palabrasSeparadas2[3] + " bytes \n"
-					+ "-->Fue registrado el " + palabrasSeparadas2[0] + " a las "
+					+ "-----> Fue registrado el " + palabrasSeparadas2[0] + " a las "
 					+ palabrasSeparadas2[1]);
 			
 			System.out.println("");

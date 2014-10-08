@@ -25,7 +25,7 @@ public class ClasesEsenciales1 {
 				"registro.txt");
 		System.out.println("-----------------Fin del Ejercicio 4!");
 
-		EjercicioCuatro e5 = new EjercicioCuatro();
+		EjercicioCinco e5 = new EjercicioCinco();
 		e4.EscribirRegistro(e5.leerArchivoRegistro("carta_ajuste.jpg"),
 				"registro.txt");
 		System.out.println("-----------------Fin del Ejercicio 5!");

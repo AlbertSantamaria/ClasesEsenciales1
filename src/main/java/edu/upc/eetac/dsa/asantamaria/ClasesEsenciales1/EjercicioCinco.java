@@ -7,9 +7,9 @@ import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class EjercicioCuatro {
+public class EjercicioCinco {
 
-	EjercicioCuatro() {
+	EjercicioCinco() {
 	}
 
 	String leerArchivoRegistro(String filename) {
@@ -20,7 +20,7 @@ public class EjercicioCuatro {
 
 		long len;
 
-		len = LeerCharChar(archivo);
+		len = LeerByteaByte(archivo);
 
 		ObtenerFechaHora ofh = new ObtenerFechaHora();
 
@@ -32,29 +32,34 @@ public class EjercicioCuatro {
 
 	}
 
-	long LeerCharChar(File archivo) {
+	long LeerByteaByte(File archivo) {
 
 		FileInputStream fis = null;
 		BufferedInputStream bis = null;
-		int c, num = 0;
+		int num = 0;
 
 		try {
 			fis = new FileInputStream(archivo);
+			bis = new BufferedInputStream(fis);
 
-			while ((c = bis.read()) != -1) {
+			int pre = bis.read();
+
+			while (pre != -1) {
 				num++;
+				pre = bis.read();
+
 			}
 		} catch (IOException e) {
 		} finally {
-			
 			System.out.println("El archivo contiene " + num
-					+ " bytes recorridos char a char");
+					+ " bytes recorridos uno a uno");
 
 			System.out.println("El archivo contiene " + archivo.length()
 					+ " bytes ( usando .length() )");
 
 			if (fis != null) {
 				try {
+					bis.close();
 					fis.close();
 				} catch (IOException e) {
 					e.printStackTrace();
