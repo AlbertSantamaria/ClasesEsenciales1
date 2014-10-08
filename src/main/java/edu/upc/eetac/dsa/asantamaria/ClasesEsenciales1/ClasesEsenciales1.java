@@ -8,34 +8,34 @@ package edu.upc.eetac.dsa.asantamaria.ClasesEsenciales1;
 public class ClasesEsenciales1 {
 	public static void main(String[] arg) {
 
-		// EjercicioUno e1 = new EjercicioUno();
+
 		new EjercicioUno();
-		System.out.println("-----------------Fin del Ejercicio 1!");
+		System.out.println("^----------------Fin del Ejercicio 1!\n");
 
-		// EjercicioDos e2 = new EjercicioDos();
+
 		new EjercicioDos();
-		System.out.println("-----------------Fin del Ejercicio 2!");
+		System.out.println("^----------------Fin del Ejercicio 2!\n");
 
-		// EjercicioTres e3 = new EjercicioTres();
+
 		new EjercicioTres();
-		System.out.println("-----------------Fin del Ejercicio 3!");
+		System.out.println("^----------------Fin del Ejercicio 3!\n");
 
 		EjercicioCuatro e4 = new EjercicioCuatro();
 		e4.EscribirRegistro(e4.leerArchivoRegistro("numeros.txt"),
 				"registro.txt");
-		System.out.println("-----------------Fin del Ejercicio 4!");
+		System.out.println("^----------------Fin del Ejercicio 4!\n");
 
 		EjercicioCinco e5 = new EjercicioCinco();
-		e4.EscribirRegistro(e5.leerArchivoRegistro("carta_ajuste.jpg"),
+		e5.EscribirRegistro(e5.leerArchivoRegistro("carta_ajuste.jpg"),
 				"registro.txt");
-		System.out.println("-----------------Fin del Ejercicio 5!");
+		System.out.println("^----------------Fin del Ejercicio 5!\n");
 
 		EjercicioSeis e6 = new EjercicioSeis();
 		e6.MaxRegistro();
-		System.out.println("-----------------Fin del Ejercicio 6!");
+		System.out.println("^----------------Fin del Ejercicio 6!\n");
 
 		new EjercicioSiete();
-		System.out.println("-----------------Fin del Ejercicio 7!");
+		System.out.println("^----------------Fin del Ejercicio 7!\n");
 	}
 
 }

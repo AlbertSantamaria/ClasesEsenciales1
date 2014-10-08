@@ -3,6 +3,7 @@ package edu.upc.eetac.dsa.asantamaria.ClasesEsenciales1;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.IOException;
 
 public class EjercicioDos {
 
@@ -11,6 +12,7 @@ public class EjercicioDos {
 		File archivo = new File("numeros.txt");
 		FileReader fr = null;
 		String linea;
+		int c=0;
 
 		try {
 			fr = new FileReader(archivo);
@@ -23,11 +25,21 @@ public class EjercicioDos {
 				if ((Integer.parseInt(linea)) >= 1000) {
 					throw new BigNumberException(linea);
 				}
-				System.out.println(linea);
+
+				System.out.print(linea + ", ");
+				c++;
+				if (c == 6) {
+
+					System.out.print("\n");
+					c = 0;
+				}
 			}
+			System.out.print("\n");
 			br.close();
 			fr.close();
-		} catch (Exception e) {
+		} catch (BigNumberException e1) {
+			e1.printStackTrace();
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
 

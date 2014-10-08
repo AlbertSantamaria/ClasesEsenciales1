@@ -18,9 +18,7 @@ public class EjercicioSeis {
 		FileReader fr = null;
 		BufferedReader br = null;
 
-		// int i;
 		String linea;
-		// String delimitadores = "[ .,;?!¡¿\'\"\\[\\]]+";
 		String[] palabrasSeparadas1;
 		String[] palabrasSeparadas2 = { "", "", "", "0", "" };
 
@@ -38,13 +36,8 @@ public class EjercicioSeis {
 						.parseInt(palabrasSeparadas2[3])) {
 					palabrasSeparadas2 = palabrasSeparadas1;
 
-					// for (i = 0; i < palabrasSeparadas2.length; i++) {
-					// System.out.print(palabrasSeparadas2[i]+" ");
-					// }
-					// System.out.println("");
 				}
 			}
-			System.out.println("");
 			
 			System.out.println("El archivo de mayor tamaño del registro es:\n"
 					+ "--> "+palabrasSeparadas2[2] + " con un tamaño de "

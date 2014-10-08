@@ -11,6 +11,7 @@ public class EjercicioTres {
 		File archivo = new File("numeros.txt");
 		FileReader fr = null;
 		BufferedReader br = null;
+		int c = 0;
 
 		try {
 			fr = new FileReader(archivo);
@@ -21,7 +22,13 @@ public class EjercicioTres {
 
 			while ((linea = br.readLine()) != null) {
 
-				System.out.println(linea);
+				System.out.print(linea + ", ");
+				c++;
+				if (c == 6) {
+
+					System.out.print("\n");
+					c = 0;
+				}
 
 				// Este metodo hace saltar BigNumberException a diferencia del
 				// ejercicio 2

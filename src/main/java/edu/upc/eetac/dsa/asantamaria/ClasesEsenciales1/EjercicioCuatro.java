@@ -40,7 +40,8 @@ public class EjercicioCuatro {
 
 		try {
 			fis = new FileInputStream(archivo);
-
+			bis= new BufferedInputStream(fis);
+			
 			while ((c = bis.read()) != -1) {
 				num++;
 			}
@@ -85,7 +86,7 @@ public class EjercicioCuatro {
 				bw.close();
 				fw.close();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
+
 				e.printStackTrace();
 			}
 
