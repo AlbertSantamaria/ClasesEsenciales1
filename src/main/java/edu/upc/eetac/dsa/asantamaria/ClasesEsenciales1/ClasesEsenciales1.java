@@ -7,7 +7,7 @@ package edu.upc.eetac.dsa.asantamaria.ClasesEsenciales1;
 
 public class ClasesEsenciales1 {
 	public static void main(String[] arg) {
-
+/*
 
 		new EjercicioUno();
 		System.out.println("^----------------Fin del Ejercicio 1!\n");
@@ -33,7 +33,7 @@ public class ClasesEsenciales1 {
 		EjercicioSeis e6 = new EjercicioSeis();
 		e6.MaxRegistro();
 		System.out.println("^----------------Fin del Ejercicio 6!\n");
-
+*/
 		new EjercicioSiete();
 		System.out.println("^----------------Fin del Ejercicio 7!\n");
 	}
